@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dr. [Your Name] | Human Behavior Consultant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Evidence-based human-behavior consulting for families, schools & organizations. UTD Psychology & Child Development. Dallas–Fort Worth & virtual.">
+  <style>
+    :root{
+      --primary:#004E89;
+      --accent:#FF6B35;
+      --light:#F7F9FC;
+      --dark:#111;
+      --max:1100px;
+    }
+    *{box-sizing:border-box;margin:0;padding:0;font-family:'Segoe UI',Helvetica,Arial,sans-serif;}
+    body{background:var(--light);color:var(--dark);line-height:1.6;}
+    img{max-width:100%;display:block;}
+    a{text-decoration:none;color:var(--primary);}
+    .btn{background:var(--accent);color:#fff;padding:12px 28px;border-radius:30px;display:inline-block;margin-top:1rem;transition:.3s;}
+    .btn:hover{background:#e55a2b;}
+    header{background:var(--primary);color:#fff;padding:60px 20px;text-align:center;}
+    header h1{font-size:2.4rem;margin-bottom:.5rem;}
+    header p{font-size:1.1rem;opacity:.9;}
+    nav{background:#fff;box-shadow:0 2px 4px rgba(0,0,0,.05);position:sticky;top:0;z-index:10;}
+    nav ul{display:flex;justify-content:center;flex-wrap:wrap;list-style:none;padding:14px 0;}
+    nav li{margin:0 18px;}
+    nav a{font-weight:600;font-size:.95rem;}
+    section{padding:70px 20px;max-width:var(--max);margin:auto;}
+    #about{display:flex;gap:40px;align-items:center;flex-wrap:wrap;}
+    #about div{flex:1 1 300px;}
+    #about img{flex:1 1 220px;border-radius:12px;min-width:220px;}
+    h2{font-size:2rem;margin-bottom:1.2rem;color:var(--primary);}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:30px;margin-top:30px;}
+    .card{background:#fff;padding:30px;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,.05);}
+    .card h3{margin-bottom:10px;color:var(--accent);}
+    footer{background:var(--dark);color:#fff;text-align:center;padding:40px 20px;font-size:.9rem;}
+    footer a{color:#ccc;}
+    @media(max-width:600px){header h1{font-size:2rem;}#about{flex-direction:column;text-align:center;}}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Dr. [Your Name]</h1>
+  <p>Human Behavior Consultant • M.S. Psychology, M.S. Child Development – University of Texas at Dallas</p>
+  <a class="btn" href="#contact">Book Free 15-Min Consult</a>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#credentials">Credentials</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section id="about">
+  <div>
+    <h2>Science-based insight. Real-world results.</h2>
+    <p>From toddler tantrums to team dynamics, behavior is communication. I translate peer-reviewed research into practical strategies for families, educators, and organizations across Texas—and virtually worldwide.</p>
+    <p>My approach is collaborative, data-informed, and always judgment-free.</p>
+  </div>
+  <img src="your-photo.jpg" alt="Dr. [Your Name]">
+</section>
+
+<section id="services">
+  <h2>How I Help</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Parent & Caregiver Coaching</h3>
+      <p>Custom plans for sleep, discipline, screen-time, school refusal, sibling conflict, & developmental transitions.</p>
+    </div>
+    <div class="card">
+      <h3>School & educator support</h3>
+      <p>Functional-behavior assessments, classroom-management training, and IEP behavior-goal design.</p>
+    </div>
+    <div class="card">
+      <h3>Corporate / NGO workshops</h3>
+      <p>Evidence-based seminars on motivation, habit formation, psychological safety, and inclusive leadership.</p>
+    </div>
+    <div class="card">
+      <h3>Research & evaluation</h3>
+      <p>Program evaluation, survey design, data-analysis, and grant-writing for youth-serving nonprofits.</p>
+    </div>
+  </div>
+</section>
+
+<section id="credentials">
+  <h2>Credentials & Affiliations</h2>
+  <ul style="margin-left:20px;line-height:1.9;">
+    <li>M.S. Psychology – University of Texas at Dallas (20XX)</li>
+    <li>M.S. Child Development – University of Texas at Dallas (20XX)</li>
+    <li>Graduate Certificate in Applied Cognition & Neuroscience, UTD</li>
+    <li>Member, Association for Behavioral Analysis International</li>
+    <li>Member, Society for Research in Child Development</li>
+    <li>20+ peer-reviewed conference presentations (SRCD, APA, ABAI)</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Let’s Talk</h2>
+  <p>First 15-minute phone or Zoom call is always complimentary.</p>
+  <a class="btn" href="https://calendly.com/yourlink">Schedule on Calendly</a>
+  <p style="margin-top:1.5rem;">Or email <a href="mailto:you@domain.com">you@domain.com</a> &nbsp; • &nbsp; Call/text <a href="tel:+1234567890">(123) 456-7890</a></p>
+</section>
+
+<footer>
+  © <span id="yr"></span> Dr. [Your Name]. All rights reserved. &nbsp; • &nbsp; <a href="#">Privacy</a>
+</footer>
+
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
